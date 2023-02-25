@@ -9,49 +9,123 @@
 </head>
 <body lang="ua">
     <form>
-        <input type="radio" name="music-octaves" id="note-c" oninput="octaveSelect(0)">Контроктава
-        <input type="radio" name="music-octaves" id="note-c-sharp" oninput="octaveSelect(1)">Велика октава
-        <input type="radio" name="music-octaves" id="note-d-flat" oninput="octaveSelect(2)">Мала октава
-        <input type="radio" name="music-octaves" id="note-d" oninput="octaveSelect(3)" checked>Перша октава
-        <input type="radio" name="music-octaves" id="note-d-sharp" oninput="octaveSelect(4)">Друга октава
-        <input type="radio" name="music-octaves" id="note-e-flat" oninput="octaveSelect(5)">Третя октава
+        <label for="oct-c">
+            <input type="radio" name="music-octaves" id="oct-c" oninput="octaveSelect(0)">Контроктава        
+        </label>
+        <label for="oct-l">
+            <input type="radio" name="music-octaves" id="oct-l" oninput="octaveSelect(1)">Велика октава        
+        </label>
+        <label for="oct-s">
+            <input type="radio" name="music-octaves" id="oct-s" oninput="octaveSelect(2)">Мала октава        
+        </label>
+        <label for="oct-1">
+            <input type="radio" name="music-octaves" id="oct-1" oninput="octaveSelect(3)" checked>Перша октава        
+        </label>
+        <label for="oct-2">
+            <input type="radio" name="music-octaves" id="oct-2" oninput="octaveSelect(4)">Друга октава            
+        </label>
+        <label for="oct-3">
+            <input type="radio" name="music-octaves" id="oct-3" oninput="octaveSelect(5)">Третя октава        
+        </label>
     </form>
 
     <form>
-        <input type="radio" name="music-notes" id="note-c" oninput="noteSelect('7 12')" checked>До
-        <input type="radio" name="music-notes" id="note-c-sharp" oninput="noteSelect('7 13')">До-дієз
-        <input type="radio" name="music-notes" id="note-d-flat" oninput="noteSelect('8 13')">Ре-бемоль
-        <input type="radio" name="music-notes" id="note-d" oninput="noteSelect('8 14')">Ре
-        <input type="radio" name="music-notes" id="note-d-sharp" oninput="noteSelect('8 15')">Ре-дієз
-        <input type="radio" name="music-notes" id="note-e-flat" oninput="noteSelect('9 15')">Мі-бемоль
-        <input type="radio" name="music-notes" id="note-e" oninput="noteSelect('9 16')">Мі
-        <input type="radio" name="music-notes" id="note-f" oninput="noteSelect('10 17')">Фа
-        <input type="radio" name="music-notes" id="note-f-sharp" oninput="noteSelect('10 18')">Фа-дієз
-        <input type="radio" name="music-notes" id="note-g-flat" oninput="noteSelect('11 18')">Соль-бемоль
-        <input type="radio" name="music-notes" id="note-g" oninput="noteSelect('11 19')">Соль
-        <input type="radio" name="music-notes" id="note-g-sharp" oninput="noteSelect('11 20')">Соль-дієз
-        <input type="radio" name="music-notes" id="note-a-flat" oninput="noteSelect('12 20')">Ля-бемоль
-        <input type="radio" name="music-notes" id="note-a" oninput="noteSelect('12 21')">Ля
-        <input type="radio" name="music-notes" id="note-a-sharp" oninput="noteSelect('12 22')">Ля-дієз
-        <input type="radio" name="music-notes" id="note-b-flat" oninput="noteSelect('13 22')">Сі-бемоль
-        <input type="radio" name="music-notes" id="note-b" oninput="noteSelect('13 23')">Сі
+        <label for="note-c">
+            <input type="radio" name="music-notes" id="note-c" oninput="noteSelect('7 12')" checked>До            
+        </label>
+        <label for="note-c-sharp">
+            <input type="radio" name="music-notes" id="note-c-sharp" oninput="noteSelect('7 13')">До-дієз
+        </label>
+        <label for="note-d-flat">
+            <input type="radio" name="music-notes" id="note-d-flat" oninput="noteSelect('8 13')">Ре-бемоль            
+        </label>
+        <label for="note-d">
+            <input type="radio" name="music-notes" id="note-d" oninput="noteSelect('8 14')">Ре            
+        </label>
+        <label for="note-d-sharp">
+            <input type="radio" name="music-notes" id="note-d-sharp" oninput="noteSelect('8 15')">Ре-дієз            
+        </label>
+        <label for="note-e-flat">
+            <input type="radio" name="music-notes" id="note-e-flat" oninput="noteSelect('9 15')">Мі-бемоль            
+        </label>
+        <label for="note-e">
+            <input type="radio" name="music-notes" id="note-e" oninput="noteSelect('9 16')">Мі            
+        </label>
+        <label for="note-f">
+            <input type="radio" name="music-notes" id="note-f" oninput="noteSelect('10 17')">Фа            
+        </label>
+        <label for="note-f-sharp">
+            <input type="radio" name="music-notes" id="note-f-sharp" oninput="noteSelect('10 18')">Фа-дієз            
+        </label>
+        <label for="note-g-flat">
+            <input type="radio" name="music-notes" id="note-g-flat" oninput="noteSelect('11 18')">Соль-бемоль            
+        </label>
+        <label for="note-g">
+            <input type="radio" name="music-notes" id="note-g" oninput="noteSelect('11 19')">Соль
+        </label>
+        <label for="note-g-sharp">
+            <input type="radio" name="music-notes" id="note-g-sharp" oninput="noteSelect('11 20')">Соль-дієз            
+        </label>
+        <label for="note-a-flat">
+            <input type="radio" name="music-notes" id="note-a-flat" oninput="noteSelect('12 20')">Ля-бемоль
+        </label>
+        <label for="note-a">
+            <input type="radio" name="music-notes" id="note-a" oninput="noteSelect('12 21')">Ля
+        </label>
+        <label for="note-a-sharp">
+            <input type="radio" name="music-notes" id="note-a-sharp" oninput="noteSelect('12 22')">Ля-дієз        
+        </label>
+        <label for="note-b-flat">
+            <input type="radio" name="music-notes" id="note-b-flat" oninput="noteSelect('13 22')">Сі-бемоль        
+        </label>
+        <label for="note-b">
+            <input type="radio" name="music-notes" id="note-b" oninput="noteSelect('13 23')">Сі        
+        </label>
     </form>
 
     <form>
-        <input type="radio" name="music-intervals" id="perfect-union" oninput="intervalSelect('0 0')" checked>Чиста прима
-        <input type="radio" name="music-intervals" id="minor-second" oninput="intervalSelect('1 1')">Мала секунда
-        <input type="radio" name="music-intervals" id="major-second" oninput="intervalSelect('1 2')">Велика секунда
-        <input type="radio" name="music-intervals" id="minor-third" oninput="intervalSelect('2 3')">Мала терція
-        <input type="radio" name="music-intervals" id="major-third" oninput="intervalSelect('2 4')">Велика терція
-        <input type="radio" name="music-intervals" id="perfect-fourth" oninput="intervalSelect('3 5')">Чиста кварта
-        <input type="radio" name="music-intervals" id="tritone" oninput="intervalSelect('3 6')">Збільшена кварта
-        <input type="radio" name="music-intervals" id="tritone" oninput="intervalSelect('4 6')">Зменшена квінта
-        <input type="radio" name="music-intervals" id="perfect-fifth" oninput="intervalSelect('4 7')">Чиста квінта
-        <input type="radio" name="music-intervals" id="minor-sixth" oninput="intervalSelect('5 8')">Мала секста
-        <input type="radio" name="music-intervals" id="major-sixth" oninput="intervalSelect('5 9')">Велика секста
-        <input type="radio" name="music-intervals" id="minor-seventh" oninput="intervalSelect('6 10')">Мала септима
-        <input type="radio" name="music-intervals" id="major-seventh" oninput="intervalSelect('6 11')">Велика септима
-        <input type="radio" name="music-intervals" id="perfect-octave" oninput="intervalSelect('7 12')">Чиста октава
+        <label for="perfect-unison">
+            <input type="radio" name="music-intervals" id="perfect-unison" oninput="intervalSelect('0 0')" checked>Чиста прима            
+        </label>
+        <label for="minor-second">
+            <input type="radio" name="music-intervals" id="minor-second" oninput="intervalSelect('1 1')">Мала секунда        
+        </label>
+        <label for="major-second">
+            <input type="radio" name="music-intervals" id="major-second" oninput="intervalSelect('1 2')">Велика секунда        
+        </label>
+        <label for="minor-third">
+            <input type="radio" name="music-intervals" id="minor-third" oninput="intervalSelect('2 3')">Мала терція        
+        </label>
+        <label for="major-third">
+            <input type="radio" name="music-intervals" id="major-third" oninput="intervalSelect('2 4')">Велика терція        
+        </label>
+        <label for="perfect-fourth">
+            <input type="radio" name="music-intervals" id="perfect-fourth" oninput="intervalSelect('3 5')">Чиста кварта
+        </label>
+        <label for="tritone-fourth">
+            <input type="radio" name="music-intervals" id="tritone-fourth" oninput="intervalSelect('3 6')">Збільшена кварта        
+        </label>
+        <label for="tritone-fifth">
+            <input type="radio" name="music-intervals" id="tritone-fifth" oninput="intervalSelect('4 6')">Зменшена квінта        
+        </label>
+        <label for="perfect-fifth">
+            <input type="radio" name="music-intervals" id="perfect-fifth" oninput="intervalSelect('4 7')">Чиста квінта        
+        </label>
+        <label for="minor-sixth">
+            <input type="radio" name="music-intervals" id="minor-sixth" oninput="intervalSelect('5 8')">Мала секста        
+        </label>
+        <label for="major-sixth">
+            <input type="radio" name="music-intervals" id="major-sixth" oninput="intervalSelect('5 9')">Велика секста        
+        </label>
+        <label for="minor-seventh">
+            <input type="radio" name="music-intervals" id="minor-seventh" oninput="intervalSelect('6 10')">Мала септима        
+        </label>
+        <label for="major-seventh">
+            <input type="radio" name="music-intervals" id="major-seventh" oninput="intervalSelect('6 11')">Велика септима        
+        </label>
+        <label for="perfect-octave">
+            <input type="radio" name="music-intervals" id="perfect-octave" oninput="intervalSelect('7 12')">Чиста октава        
+        </label>
     </form>
 
     <button oninput="upDown()">Вгору / вниз</button>

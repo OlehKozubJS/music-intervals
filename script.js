@@ -35,8 +35,8 @@ function octaveSelect(octave) {
     compute();
 }
 
-function upDown() {
-    upDownVar *= -1;
+function upDown(arg) {
+    upDownVar = arg;
     compute();
 }
 

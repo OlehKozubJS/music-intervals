@@ -1,0 +1,43 @@
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 16px;
+    row-gap: 24px;
+    margin-block: 24px;
+}
+
+input {
+    display: none;
+}
+
+.note-input-text {
+    width: 75px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 4px;
+    background-color: rgb(240, 240, 255);
+    color: blue;
+    transition: 500ms ease-in-out;
+}
+
+label:hover .note-input-text,
+label:focus .note-input-text,
+input:checked + .note-input-text {
+    background-color: blue;
+    color: white;
+}
+
+.note-output {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 4px;
+    background-color: rgb(255, 240, 240);
+    color: red;
+}

@@ -12,14 +12,16 @@ input {
 }
 
 .note-input-text {
-    width: 75px;
-    height: 50px;
+    width: 100px;
+    height: 55px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     border-radius: 4px;
     background-color: rgb(240, 240, 255);
+    font-family: 'Marck Script', cursive;
+    font-size: 23px;
     color: blue;
     transition: 500ms ease-in-out;
 }
@@ -39,5 +41,7 @@ input:checked + .note-input-text {
     text-align: center;
     border-radius: 4px;
     background-color: rgb(255, 240, 240);
+    font-family: 'Marck Script', cursive;
+    font-size: 50px;
     color: red;
 }

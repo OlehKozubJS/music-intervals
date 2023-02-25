@@ -34,7 +34,7 @@ input:checked + .note-input-text {
 }
 
 .note-output {
-    height: 50px;
+    height: 75px;
     display: flex;
     justify-content: center;
     align-items: center;
